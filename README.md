@@ -1,14 +1,20 @@
 # cljs-exp
 
-A Clojure library designed to ... well, that part is up to you.
+Tiny Node/ClojureScript experiment.
 
 ## Usage
 
-FIXME
+    $ lein cljsbuild once
+    $ npm install
+    $ node cljs-exp.js
+
+Then in another shell
+
+    $ curl http://localhost:3050/hello
 
 ## License
 
-Copyright © 2013 FIXME
+Copyright © 2013 J Irving <j@lollyshouse.ca>
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
